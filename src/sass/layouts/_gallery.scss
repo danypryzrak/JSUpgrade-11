@@ -1,0 +1,28 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.gallery__link{
+    text-decoration: none;
+    color: black;
+}
+
+.photo-card{
+    width: 300px;
+    border: 5px groove #617AE4;
+    padding: 0 0 8px 0;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px 0 8px;
+}
+
+.info-item{
+    text-align: center;
+}
